@@ -1,0 +1,12 @@
+# compose.yml
+services:
+  rike-core:
+    build: .
+    container_name: rike-core
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - /srv/storage/docker-data/rike-core:/data
