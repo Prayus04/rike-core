@@ -50,3 +50,37 @@ http://SERVER_IP:8000/docs
 - `docs/MODEL_REGISTRY.md`
 - `docs/MEMORY_ARCHITECTURE.md`
 - `docs/OPERATIONS.md`
+
+## Planned Features
+
+Project Rike is under active development. The current focus is building a modular, self-hosted AI platform with a strong software engineering foundation. Planned features include:
+
+### AI & Intelligence
+- Streaming responses from Ollama
+- Semantic memory using embedding models
+- Long-term memory and preference management
+- Automatic model selection based on task type
+- Support for additional local language models
+
+### Tool Integration
+- Modular tool routing system
+- Notes and knowledge management
+- Calendar integration
+- Weather and web information tools
+- Local system monitoring and diagnostics
+
+### Infrastructure
+- Open WebUI integration
+- Homepage dashboard
+- Caddy reverse proxy with HTTPS
+- Tailscale remote access
+- Automated backups and recovery workflows
+- Improved logging and monitoring
+
+### Platform Improvements
+- Expanded REST API
+- Comprehensive unit and integration testing
+- Continuous Integration (GitHub Actions)
+- Performance profiling and optimization
+- Improved error handling and resilience
+- Complete developer and API documentation
