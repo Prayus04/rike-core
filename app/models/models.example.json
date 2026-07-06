@@ -1,0 +1,11 @@
+{
+  "default_chat_model": "llama3.2:1b",
+  "models": [
+    {
+      "name": "llama3.2:1b",
+      "enabled": true,
+      "purpose": "general",
+      "notes": "Example default lightweight chat model."
+    }
+  ]
+}
