@@ -1,4 +1,3 @@
-# compose.yml
 services:
   rike-core:
     build: .
@@ -10,3 +9,9 @@ services:
       - "8000:8000"
     volumes:
       - /srv/storage/docker-data/rike-core:/data
+    networks:
+      - rike-network
+
+networks:
+  rike-network:
+    external: true
